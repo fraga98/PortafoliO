@@ -1,0 +1,241 @@
+
+
+
+@media only screen and (max-width: 600px){
+/*Img*/
+
+         .responsive {
+         /*img*/
+             width: 80%;
+             height: 80%;
+         }
+
+}/*Resp*/
+
+/**
+ * -------------MENU----------
+ * ------------------------------------------
+ * */
+
+@media only screen and (max-width: 760px){
+
+    
+  /*--------Menu*/
+
+  .header {
+    height: 60px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: white; /*Gris oscuro*/
+   
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+
+    height: calc(100% - 60px);
+    overflow-y: auto;
+
+    left: 100%;
+    transition: left 0.3s;
+  }
+
+  .nav-menu-item {
+    line-height: 70px;
+
+  }
+
+  .nav-menu-link{
+
+    color: black;
+  }
+
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background: none;
+    color: #20ccd2; /*color verdeagua*/
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu_visible {
+    left: 0;
+  }
+
+  .nav-toggle:focus:not(:focus-visible) {
+    outline: none;
+  }
+ 
+}/*Resp*/
+
+
+@media only screen and (max-width: 760px){
+/*Iconos de arriba*/
+
+
+   
+        /*------Localidad lanus cuando aparece arriba junto a los iconos*/
+
+         .responsivoLocalidad{
+
+             display: none;
+         }
+
+         .ContenedorIconos_Responsivos{
+         /*Saco los iconos de las redes*/
+
+           display: none;
+
+        }
+
+        .enlaceIConosLocalidad{
+        /*enlace Localidad Lanus-Buenos Aires*/
+          color: black;
+
+        }
+
+        .Conenedorico_Resposive{
+         /*Contenedor Iconos Responsive*/
+           
+           width: 100%;
+           display: inline-block;
+           background-color: white;
+
+           padding-top: 5px;
+           padding-left: 15px;
+           padding-bottom: 5px;
+
+           margin-top: 60px;
+
+        }
+
+        .enlace_formatoResponsivo:hover{
+        /*enlace del los iconos*/
+           border-bottom: 3px solid black;
+           padding-bottom: 3px;
+
+        }
+
+        /*----Sobre mi*/
+    
+        .hijo{
+           margin-top: 3px;
+        }
+
+        .ContenedorSobreMi_Responsive{
+               
+          background: #16cad0; 
+          display: flex;
+          justify-content: left;
+
+          margin-top: -10px;
+        }
+
+        /*Pie de pagina*/
+
+        .enlaceEmail{
+
+          margin-top: 50px;
+        }
+
+        .imagencorreo_Responsive{
+
+            width: 35px;
+        }
+
+
+}/*Resp*/
+
+/**
+ * -------------Responsive Estudios----------
+ * ------------------------------------------
+ * */
+
+ @media only screen and (max-width: 760px){
+
+
+       h1{
+          
+          font-size: 35px;
+       }
+
+       h4{
+           
+         font-size: 25px;
+         text-decoration: underline;
+
+       }
+
+       p{
+
+        font-size: 20px;
+       }
+       
+
+      .img_Responsive{
+          /*Titulo 111mil*/
+
+          width: 400px;
+          margin-left: -45px;
+       }
+         
+
+}/*Respo*/
+
+
+/**
+ * -------------CONTENEDOR ICONOS REDES SOCIALES
+ * LE DA FORMATO A LA PAGINA DE LABORAL, SOBRE Y TECNO----------
+ * ------------------------------------------
+ * */
+
+ @media only screen and (max-width: 760px){
+
+      .contenedorIconos{
+
+         margin-top: 60px;
+         padding: 7px;
+      }
+
+
+
+/*ENLACE LOCALIDAD LANUS - ICONOS REPOSIVOS*/
+
+@media only screen and (max-width: 400px){
+
+      .Conenedorico_Resposive{
+         /*Contenedor Iconos Responsive*/
+           
+           width: 100%;
+           display: inline-block;
+           background-color: white;
+
+           padding-top: 5px;
+           padding-left: 5px;
+           padding-bottom: 5px;
+
+           margin-top: 60px;
+
+       }
+
+      .enlaceIConosLocalidad{
+        /*enlace Localidad Lanus-Buenos Aires*/
+          color: black;
+          font-size: 15px;
+  
+        }
+
+      /*APARTADO GENERAL*/
+
+      .iconosResponsive_General{
+        
+         width: 30px;
+      }
+
+}/**/ 
